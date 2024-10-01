@@ -11,6 +11,12 @@ import {
     Menu,
     Anchor,
     Steps,
+    Space,
+    Form,
+    Input,
+    Checkbox,
+    DatePicker,
+    Radio
 } from "ant-design-vue";
 
 const app = createApp(App);
@@ -23,4 +29,10 @@ app.use(router)
     .use(Menu)
     .use(Anchor)
     .use(Steps)
+    .use(Space)
+    .use(Form)
+    .use(Input)
+    .use(Checkbox)
+    .use(DatePicker)
+    .use(Radio)
     .mount("#app");
